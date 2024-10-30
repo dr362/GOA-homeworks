@@ -13,9 +13,11 @@ while i != 0:
 #A While loop is used to repeat a section of code an unknown number of times until a specific condition is met.
 
 i = 10
-while i < 70:
+while i != 70:
     print (i)
-    i += 2
+    i = i + 2
+    
+    
 
 
 i = 25
