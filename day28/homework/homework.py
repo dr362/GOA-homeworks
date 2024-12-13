@@ -13,9 +13,19 @@ def double(num1 , num2):
 double(2,10)
 #2)
 def check(num1):
-    if num1 == 0:
+    if num1 % 2 == 0:
         print("luwia")
     else:
         print("kentia")
 
 check(2)
+#3)
+def hi(name1,name2):
+    print("hello",name1)
+    print("hello",name2)
+hi("alexandre","gio")
+#4)
+def combine(str1,str2):
+    print(str1 + str2)
+combine("foot","ball")
+
