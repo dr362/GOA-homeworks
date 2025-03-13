@@ -7,35 +7,27 @@
 </head>
 <body>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
-        #orange {
-            background-color:hsl(31, 77%, 52%);
-            color:white;
+        body {
+            background-color:hsl(185, 75%, 39%);
             display:flex;
             justify-content:center;
-            align-items:center;
             flex-direction:column;
-            width:300px;
-            height:500px;
-            font-family:"Lexend Deca";
-            text-align:center;
+            align-items:center;
+        }
+        div {
+            background-color:white;
+            height:400px;
             border-radius:10px;
         }
-        
+        #avatar {
+            border-radius:100px;
+            position:relative;
+        }
     </style>
-    <center>
-    <div id="orange">
-        <div>
-            <img src="./3-column-preview-card-component-main/images/icon-sedans.svg" alt="sedan">
-            <br><br><br><br>
-            <b id="sed">Sedans</b>
-            <br><br><br><br><br>
-            <p>
-            Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-            or on your next road trip.
-            </p> 
-        </div>
+    <div>
+        <img src="./profile-card-component-main/images/bg-pattern-card.svg" alt="" id="background">
+        <br>
+        <center><img src="./profile-card-component-main/images/image-victor.jpg" alt="" id="avatar"></center>
     </div>
-    </center>
 </body>
 </html>
